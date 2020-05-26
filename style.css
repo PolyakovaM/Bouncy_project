@@ -137,6 +137,10 @@ header {
     align-items: center;
 }
 
+.burger-menu_contant {
+	display: none;
+}
+
 .logo {
     font-family: 'Open Sans', cursive;
     font-size: 25px;
@@ -506,6 +510,10 @@ audio, canvas, progress, video {
     margin-right: 30px;
     position: relative;
     padding-bottom: 10px;
+}
+
+.list_portfolio li:last-child {
+    margin-right: 0px;
 }
 
 .list_portfolio li::after {
