@@ -3,12 +3,16 @@
       text-align: center;
    }
 
+   input, textarea {
+      text-align: left;
+   }
+
    .bouncy {
       padding: 60px 65px;
    }
 
   .featured_footer_wrapper {
-      margin: 40px 100px;
+      width: 80%;
    }
 }
 
@@ -29,7 +33,7 @@
 
 	.burger-menu__button {
 		position: fixed;
-		top: 25px;
+		top: 35px;
 		right: 40px;
 		z-index: 30;
 		width: 50px;
@@ -208,6 +212,7 @@
 
    .latest_news_title {
       margin-top: 60px;
+      margin-bottom: 30px;
    }
 
    .latest_news_main {
@@ -234,8 +239,250 @@
       width: 50%;
    }
 
+   .testimonial_info {
+      width: 80%;
+   }
+
+   .testimonials_container_wrapper {
+      width: 95%;
+      margin: 30px auto;
+   }
+
+   .testimonial_main .bottom_slider {
+      margin-bottom: 30px;
+   }
+
+   .contact_us_details {
+      width: 90%;
+      word-wrap: break-word;
+   }
+
+   .contact_us_info {
+      height: 60%;
+   }
+
+   .impress_prof {
+      font-size: 12px;
+   }
+
+   .portfolio_info {
+      width: 100%;
+   }
 }   
 
 @media screen and (max-width: 479px) {
-	
+   p, .large {
+      font-size: 16px;
+   }
+
+   h2 {
+      font-size: 20px;
+   }
+   
+   .header_scroll {
+      margin-top: 50px;
+   }
+
+   .header_menu {
+      margin-bottom: 100px;
+   }
+
+   .bouncy_image {
+      display: none;
+   }
+
+   .bouncy {
+      padding: 30px;
+   }
+
+   .details_info {
+      margin: 0 auto 30px;
+      width: 90%;
+   }
+
+   .details_description {
+      display: block;
+   }
+
+  .details_description p:first-child {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .details_description p:last-child {
+      width: 100%;
+   }
+
+   .projects_list {
+      display: block;
+   }
+
+   .project_item {
+      width: 100%;
+   }
+
+   .services_left {
+      display: block;
+   }
+
+   .services_icons {
+      margin-right: 0px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .list_portfolio ul li {
+      display: block;
+      margin-right: 0px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+   }
+
+   .portfolio_info p {
+      margin-bottom: 30px;
+   }
+
+   .portfolio_image {
+      margin-top: 0px;
+   }
+
+   .images_container {
+      width: 90%;
+   }
+
+   .team_person {
+      display: block;
+      margin-bottom: 20px;
+   }
+
+   .team_container_wrapper {
+      width: 90%;
+      padding: 30px;
+   }
+
+   .team_pers_img {
+      width: 60%;
+      margin: auto;
+   }
+
+   .team_info p {
+      margin-bottom: 20px;
+   }
+
+   .team_pers_title {
+      width: 90%;
+      margin: auto;
+   }
+
+   .team_footer_wrapper {
+      width: 60%;
+   }
+
+   .testimonial_main_wrapper {
+      display: block;
+   }
+
+   .testimonial_left {
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+   }
+
+   .testimonial_right {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .our_price_title {
+      width: 90%;
+      margin-bottom: 20px;
+   }
+
+   .our_price_package {
+      display: block;
+      margin-bottom: 30px;
+   }
+
+   .our_price_package_wrapper {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 30px;
+   }
+
+   .our_price_package_wrapper:last-child {
+      margin: auto;
+   }
+
+   .subscribe_us_title {
+      width: 90%;
+      margin: 30px auto;
+   }
+
+   .subscribe_us_form_wrapper {
+      display: block;
+   }
+
+   .subscribe_us_form_wrapper input {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .subscribe_us_form_wrapper button {
+      width: 50%;
+      padding: 10px 23px;
+      font-size: 16px;
+      border-radius: 5%;
+   }
+
+   .contact_us_title {
+      width: 90%;
+      margin: 30px auto;
+   }
+
+   .contact_us_details {
+      display: block;
+      margin-bottom: 0px;
+   }
+
+   .contact_us_details_wrapper {
+      width: 90%;
+      margin: 0 auto 30px;
+   }
+
+   .contact_us_details_wrapper:last-child {
+      margin-right: auto;
+   }
+
+   .user_info_input {
+      display: block;
+   }
+
+   .user_info_form {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .container_form textarea {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      height: 100px;
+   }
+
+   .container_form {
+      width: 85%;
+      margin: 30px auto;
+   }
+
+   .container_form input {
+      font-size: 14px;
+   }
+
+   .container_form button {
+      font-size: 16px;
+      border-radius: 3%;
+      padding: 10px;
+      width: 50%;
+   }
+
+   
 }

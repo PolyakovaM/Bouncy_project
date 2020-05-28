@@ -74,6 +74,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .bold {
     color: #636971;
     font-weight: 700;
@@ -86,19 +90,6 @@ a {
 
 .large {
     font-size: 18px;
-}
-
-.project_link button {
-    padding: 7px 25px;
-    background-color: white;
-    border: 1px solid rgb(76, 61, 61);
-    border-radius: 25px;
-    text-transform: capitalize;
-    color: #333b46;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-    cursor: pointer;
 }
 
 .code_green {
@@ -133,7 +124,8 @@ header {
 .header_menu {
     display: flex;
     justify-content: space-between;
-    margin: 45px 100px 230px;
+    width: 85%;
+    margin: 45px auto 230px;
     align-items: center;
 }
 
@@ -217,8 +209,21 @@ header {
 .bouncy_content {
     max-width: 465px;
 }
+
 .bouncy_content p {
     margin-bottom: 35px;
+}
+
+.project_link {
+    padding: 7px 25px;
+    background-color: white;
+    border: 1px solid rgb(76, 61, 61);
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #333b46;
 }
 
 .details_bouncy {
@@ -239,7 +244,6 @@ header {
 }
 
 .icon_wrapper {
-    margin-left: 28px;
     border-radius: 50%;
     background-color: #81868e;
     width: 50px;
@@ -282,7 +286,7 @@ header {
     width: 55%;
 }
 
-.featured_case{
+.featured_case {
     max-width: 460px;
     margin: 70px auto 60px;
     text-align: center;
@@ -341,15 +345,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 160px;
+    width: 70%;
+    margin: 40px auto;
 }
 
 .featured_footer_wrapper p, .featured_footer_wrapper span {
     color: white;
 }
 
-.featured_footer_wrapper .project_link button {
-    background-color:#19a587;
+.featured_footer_wrapper button {
+    background-color: transparent;
     border-color: white;
     color: white;
 }
@@ -486,7 +491,7 @@ audio, canvas, progress, video {
 }
 
 .portfolio_info {
-    width: 460px;
+    width: 45%;
     text-align: center;
     margin: 0 auto;
 }
@@ -641,11 +646,11 @@ audio, canvas, progress, video {
     color: white;
 }
 
-.portfolio_start_wrapper .project_link button {
+.portfolio_start_wrapper button {
     border-color: white;
-    color: white;
     margin-top: 30px;
     background-color: transparent;
+    color: white;
 }
 
 .team_container_wrapper {
@@ -768,10 +773,10 @@ audio, canvas, progress, video {
 }
 
 .team_footer_wrapper button {
-    color: #b2b3b3;
     background-color: transparent;
     border: 1px solid #b2b3b3;
     margin-top: 30px;
+    color: #b2b3b3;
 }
 
 .testimonials_container {
@@ -867,10 +872,10 @@ audio, canvas, progress, video {
 	letter-spacing: 1px;
 }
 
-.latest_news_main button {
-    color: #b2b3b3;
+.latest_news_main button {;
     background-color: transparent;
-    border: 1px solid #b2b3b3;;
+    border: 1px solid #b2b3b3;
+    color: #b2b3b3;
 }
 
 .our_price_container {
@@ -1073,7 +1078,10 @@ audio, canvas, progress, video {
 
 .contact_us_img {
     position: relative;
-    height: 145px;
+}
+
+.contact_us_bg img {
+    display: block;
 }
 
 .contact_us_icon {
