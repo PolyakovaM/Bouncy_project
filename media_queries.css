@@ -3,7 +3,8 @@
       text-align: center;
    }
 
-   input, textarea {
+   input, 
+   textarea {
       text-align: left;
    }
 
@@ -201,11 +202,13 @@
       width: 100%;
    }
 
-   .team_pers_img, .team_pers_title {
+   .team_pers_img, 
+   .team_pers_title {
       width: 45%;
    }
 
-   .latest_news_title, .latest_news_main {
+   .latest_news_title, 
+   .latest_news_main {
       width: 90%;
       margin: auto;
    }
@@ -271,7 +274,8 @@
 }   
 
 @media screen and (max-width: 479px) {
-   p, .large {
+   p, 
+   .large {
       font-size: 16px;
    }
 
